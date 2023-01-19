@@ -6,21 +6,59 @@ Reset
     border: 0;
     box-sizing: border-box;
 }
-
-h1, h2, h3, h4, h5, h6 {
+/*----------------
+stile header
+-----------------*/
+h2{    
     font-family: 'Fredoka One', cursive;
-    color: #e53170;
     padding: 30px 0 30px 0;
+    color: #e53170;
 }
 
 h3{
-    color:#000000;
     font-family: 'Fredoka', sans-serif;
+    color: #000000;
+
+}
+
+h4 {
+    font-family: 'Fredoka One', cursive;
+    color: #ffffff;
+}
+
+h5 {
+    font-family: 'Fredoka', sans-serif;
+}
+
+h5 .email{
+    color: #0084d2;
 }
 
 .container{
     max-width: 1600px;
     background-color: #ffffff;
-    background-position: auto;
+    margin: auto;
     text-align:center;
+}
+
+.container::after {
+	content: none;
+	display: block;
+	clear: both;
+}
+
+.carta{
+    width: 200px;
+    background-color: #000000;
+    color:#ffffff;
+    margin: auto;
+    text-align: left;
+}
+
+img{
+    float:left;
+}
+
+.email{
+    color: #0084d2;
 }
