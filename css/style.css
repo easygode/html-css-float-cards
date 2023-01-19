@@ -1,0 +1,14 @@
+/*--------------
+Reset
+---------------*/
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 800px;
+    background-color: #ffffff;
+    text-align:center;
+}
